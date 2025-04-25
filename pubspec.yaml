@@ -10,10 +10,10 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
-  web: ">=1.0.0 <2.0.0"
+  #   sdk: flutter
+  # flutter_web_plugins:
+  #   sdk: flutter
+  # web: ">=1.0.0 <2.0.0"
 
 flutter:
   plugin:
