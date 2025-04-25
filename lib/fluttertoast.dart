@@ -193,7 +193,7 @@ class FToast {
     /// Create entry only after all checks
     _ToastEntry _toastEntry = _overlayQueue.removeAt(0);
     _entry = _toastEntry.entry;
-    _overlay.insert(_entry!);
+    _overlay?.insert(_entry!);
 
     _timer = Timer(_toastEntry.duration, () {
       _fadeTimer = Timer(_toastEntry.fadeDuration, () {
